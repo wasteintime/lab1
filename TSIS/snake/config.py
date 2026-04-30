@@ -1,0 +1,31 @@
+import pygame
+
+# Экран
+CELL_SIZE = 20
+COLS, ROWS = 25, 25
+PANEL_HEIGHT = 60
+SCREEN_WIDTH = CELL_SIZE * COLS
+SCREEN_HEIGHT = CELL_SIZE * ROWS + PANEL_HEIGHT
+
+# Твои цвета
+BLACK, WHITE = (0, 0, 0), (255, 255, 255)
+GREEN, DARK_GREEN = (50, 200, 50), (30, 140, 30)
+HEAD_COLOR = (20, 220, 20)
+RED, YELLOW, PURPLE, BLUE = (220, 50, 50), (255, 215, 0), (160, 32, 240), (0, 191, 255)
+DARK_RED = (100, 0, 0)
+DARK_BG, GRID_COLOR = (15, 15, 25), (25, 25, 40)
+WALL_COLOR, PANEL_COLOR = (80, 80, 100), (10, 10, 20)
+
+# Механика
+UP, DOWN, LEFT, RIGHT = (0, -1), (0, 1), (-1, 0), (1, 0)
+BASE_SPEED, SPEED_INCREMENT = 8, 2
+FOOD_PER_LEVEL, SCORE_PER_FOOD = 3, 10
+FOOD_LIFETIME = 5000
+POWERUP_LIFETIME = 8000
+POWERUP_EFFECT_TIME = 5000
+
+# Настройки БД
+DB_CONFIG = {
+    "dbname": "snake_db", "user": "postgres", 
+    "password": "1206", "host": "127.0.0.1", "port": "5432"
+}

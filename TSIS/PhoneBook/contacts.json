@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Zhan",
+        "email": null,
+        "birthday": null,
+        "group": null,
+        "phones": [
+            {
+                "phone": "12121212",
+                "type": "main"
+            }
+        ]
+    },
+    {
+        "name": "Ivan",
+        "email": null,
+        "birthday": null,
+        "group": "Class",
+        "phones": [
+            {
+                "phone": "777777",
+                "type": "main"
+            }
+        ]
+    },
+    {
+        "name": "Erik",
+        "email": null,
+        "birthday": null,
+        "group": null,
+        "phones": [
+            {
+                "phone": "8707111223123",
+                "type": "main"
+            }
+        ]
+    },
+    {
+        "name": "Zhanibek",
+        "email": null,
+        "birthday": null,
+        "group": null,
+        "phones": [
+            {
+                "phone": "+77028264716",
+                "type": "main"
+            }
+        ]
+    },
+    {
+        "name": "Arujan",
+        "email": null,
+        "birthday": null,
+        "group": null,
+        "phones": [
+            {
+                "phone": "87475556677",
+                "type": "main"
+            }
+        ]
+    },
+    {
+        "name": "Ivan",
+        "email": null,
+        "birthday": null,
+        "group": "Class",
+        "phones": [
+            {
+                "phone": "87071112233",
+                "type": "main"
+            }
+        ]
+    }
+]
